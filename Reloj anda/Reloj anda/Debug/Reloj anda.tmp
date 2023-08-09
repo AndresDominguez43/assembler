@@ -1,0 +1,41 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.8</VERSION>
+ <DEVICE>"ATmega328P"</DEVICE>
+ <WORKING_DIR>C:\Users\Andrés\Documents\Atmel Studio\7.0\Reloj anda\Reloj anda\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\Andrés\Documents\Atmel Studio\7.0\Reloj anda\Reloj anda\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\m328Pdef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\Andrés\Documents\Atmel Studio\7.0\Reloj anda\Reloj anda\Debug\Reloj anda.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>Reloj anda.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>Reloj anda.map</FILE>
+  <FILE>Reloj anda.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <PULSOS><FILE>C:\Users\Andrés\Documents\Atmel Studio\7.0\Reloj anda\Reloj anda\main.asm</FILE><LINE>2</LINE></PULSOS>
+  <SEGUNDOS><FILE>C:\Users\Andrés\Documents\Atmel Studio\7.0\Reloj anda\Reloj anda\main.asm</FILE><LINE>3</LINE></SEGUNDOS>
+  <MINUTOS><FILE>C:\Users\Andrés\Documents\Atmel Studio\7.0\Reloj anda\Reloj anda\main.asm</FILE><LINE>4</LINE></MINUTOS>
+  <HORAS><FILE>C:\Users\Andrés\Documents\Atmel Studio\7.0\Reloj anda\Reloj anda\main.asm</FILE><LINE>5</LINE></HORAS>
+  <contador_de_pulsos><FILE>C:\Users\Andrés\Documents\Atmel Studio\7.0\Reloj anda\Reloj anda\main.asm</FILE><LINE>6</LINE></contador_de_pulsos>
+  <INICIO><FILE>C:\Users\Andrés\Documents\Atmel Studio\7.0\Reloj anda\Reloj anda\main.asm</FILE><LINE>15</LINE></INICIO>
+  <VOLVER><FILE>C:\Users\Andrés\Documents\Atmel Studio\7.0\Reloj anda\Reloj anda\main.asm</FILE><LINE>42</LINE></VOLVER>
+  <DIVISION16><FILE>C:\Users\Andrés\Documents\Atmel Studio\7.0\Reloj anda\Reloj anda\main.asm</FILE><LINE>113</LINE></DIVISION16>
+  <SEGUIR16><FILE>C:\Users\Andrés\Documents\Atmel Studio\7.0\Reloj anda\Reloj anda\main.asm</FILE><LINE>126</LINE></SEGUIR16>
+  <VOLVER16><FILE>C:\Users\Andrés\Documents\Atmel Studio\7.0\Reloj anda\Reloj anda\main.asm</FILE><LINE>118</LINE></VOLVER16>
+  <DIVISION8><FILE>C:\Users\Andrés\Documents\Atmel Studio\7.0\Reloj anda\Reloj anda\main.asm</FILE><LINE>135</LINE></DIVISION8>
+  <SEGUIR8><FILE>C:\Users\Andrés\Documents\Atmel Studio\7.0\Reloj anda\Reloj anda\main.asm</FILE><LINE>143</LINE></SEGUIR8>
+  <VOLVER8><FILE>C:\Users\Andrés\Documents\Atmel Studio\7.0\Reloj anda\Reloj anda\main.asm</FILE><LINE>139</LINE></VOLVER8>
+  <ENVIO_UART><FILE>C:\Users\Andrés\Documents\Atmel Studio\7.0\Reloj anda\Reloj anda\main.asm</FILE><LINE>238</LINE></ENVIO_UART>
+  <ESPERAR_TX><FILE>C:\Users\Andrés\Documents\Atmel Studio\7.0\Reloj anda\Reloj anda\main.asm</FILE><LINE>241</LINE></ESPERAR_TX>
+ </LABELS>
+</ASSEMBLER_INFO>
