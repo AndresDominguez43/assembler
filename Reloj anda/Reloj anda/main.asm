@@ -1,4 +1,5 @@
-	  .DSEG
+hola como estas 
+.DSEG
 		     PULSOS:        .DB 0
 		     SEGUNDOS:      .DB 0
 		     MINUTOS:       .DB 0
@@ -201,10 +202,10 @@ DESARMAR_ENVIAR_HS:
     LDI  R22,10
     CALL DIVISION16
     MOV  R20,R24
-    CALL ENVIO_UART ; envía la decena
+    CALL ENVIO_UART ; envÃ­a la decena
     MOVW R20,R26
-    CALL ENVIO_UART ; envía la unidad
-    LDI  R20,':'    ; envía el separador :
+    CALL ENVIO_UART ; envÃ­a la unidad
+    LDI  R20,':'    ; envÃ­a el separador :
     CALL ESPERAR_TX 
 
     ; Enviar minutos
@@ -213,10 +214,10 @@ DESARMAR_ENVIAR_HS:
     LDI  R22,10
     CALL DIVISION16
     MOV  R20,R24
-    CALL ENVIO_UART ; envía la decena
+    CALL ENVIO_UART ; envÃ­a la decena
     MOVW R20,R26
-    CALL ENVIO_UART ; envía la unidad
-    LDI  R20,':'    ; envía el separador :
+    CALL ENVIO_UART ; envÃ­a la unidad
+    LDI  R20,':'    ; envÃ­a el separador :
     CALL ESPERAR_TX 
 
     ; Enviar segundos
@@ -225,11 +226,11 @@ DESARMAR_ENVIAR_HS:
     LDI  R22,10
     CALL DIVISION16
     MOV  R20,R24
-    CALL ENVIO_UART ; envía la decena
+    CALL ENVIO_UART ; envÃ­a la decena
     MOVW R20,R26
-    CALL ENVIO_UART ; envía la unidad
+    CALL ENVIO_UART ; envÃ­a la unidad
 
-    LDI  R20,13     ; envía retorno de carro
+    LDI  R20,13     ; envÃ­a retorno de carro
     CALL ESPERAR_TX 
 
     RET*/
