@@ -1,4 +1,4 @@
-hola como estas 
+
 .DSEG
 		     PULSOS:        .DB 0
 		     SEGUNDOS:      .DB 0
